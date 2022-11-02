@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Netflix brasil - assistir a séries online, assistir a filmes online</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icons/icon_top.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img src="./icons/logonet.png" alt="netflix-logo" class="img-fluid position-absolute mt-3 ms-3" id="logonet"
+          style="height: 120px;">
+      </div>
+      <div class="collapse navbar-collapse me-5" id="navbarNav">
+        <ul class="navbar-nav d-flex flex-row bd-highlight mb-3">
+          <li class="nav-item me-2 ms-1 mt-3 p-2 bd-highlight">
+            <select class="form-select bg-dark text-white border border-white pe-0" id="formselect" aria-label="select"
+              name="selecionar-idioma">
+              <option selected>Português</option>
+              <option value="1">English</option>
+            </select>
+          </li>
+          <li class="nav-item me-4 mt-3 p-2 bd-highlight">
+            <input type="button" class="btn btn-md btn-danger me-4 ms-2" id="EntrarLoginBotao" value="Entrar">
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="container text-center text-white mt-5">
+        <div class="row">
+          <div class="col">
+            <h1 class="fw-bolder">Filmes, séries e muito<blockquote>mais. Sem limites.</blockquote>
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2 class="fw-normal fs-3">Assista onde quiser. Cancele quando quiser.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-4 text-center">
+        <p class="text-white fs-5">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+      </div>
+      <form action="#">
+        <div class="col-6 ms-5 d-flex justify-content-center" id="inputCamp">
+          <input type="email" class="form-control" name="Email" id="InputEmail" minlength="5" maxlength="30"
+            placeholder="Email" aria-label="Email">
+          <div class="col-4">
+            <button class="btn btn-danger fs-3 pe-5" id="buttonEmail">Vamos lá
+              <span class="text-white" id="iconButtonEmail">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

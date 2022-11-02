@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent, rgba(0, 0, 0, 0.8)), url(./icons/fundoNETFLIX.gif);
+    background: radial-gradient((rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)));
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+h1{
+    font-size: 64px;
+}
+.text-white{
+    color: #fff !important;
+}
+.mt-5{
+    margin-top: 120px !important;
+}
+.ms-5{
+    margin-left: 25rem !important;
+}
+.btn{
+    width: 75%;
+    height: 35px;
+    padding: 7px 17px;
+    border-radius: 3px;
+}
+.btn-danger{
+    background-color: #e50914 !important;
+}
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.border-white{
+    border: 1px solid #aaa !important;
+}
+#formselect{
+    width: 120px; 
+}
+.form-select{
+    border-radius: 3px;
+}
+.form-control{
+    height: 72px !important;
+    padding: 10px 0 0 10px;
+}
+#buttonEmail{
+    height: 72px;
+}
+#iconButtonEmail{
+    position: absolute;
+    margin: 0 0 20px 1rem;
+}
+ 
+ 
